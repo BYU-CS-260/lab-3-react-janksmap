@@ -102,18 +102,24 @@
             render() {
                 return (
                     <div>
-                        <h1>XKCD Comics</h1>    
-                        <div>
-                            <h2>{this.state.current.safe_title}</h2>
-                            <img src={this.state.current.img} alt={this.state.current.alt}></img>
-                            <p>{this.state.current.alt}</p>
-                            <button onClick={this.first}>First</button>
-                            <button onClick={this.randomComic}>Random</button>
-                            <button onClick={this.prev}>Previous</button>
-                            <button onClick={this.next}>Next</button>
-                            <button onClick={this.last}>Last</button>
-                            <p><i>#{this.state.current.num}, drawn on {this.state.current.month}-{this.state.current.day}-{this.state.current.year}</i></p>
+                        <div id="comic-body">
+                            <h1>XKCD Comics</h1>    
+                            <div>
+                                <h2>{this.state.current.safe_title}</h2>
+                                <img src={this.state.current.img} alt={this.state.current.alt}></img>
+                                <p>{this.state.current.alt}</p>
+                                <button onClick={this.first} id="first-button">First</button>
+                                <button onClick={this.randomComic}>Random</button>
+                                <button onClick={this.prev}>Previous</button>
+                                <button onClick={this.next}>Next</button>
+                                <button onClick={this.last}>Last</button>
+                                <p><i>#{this.state.current.num}, drawn on {this.state.current.month}-{this.state.current.day}-{this.state.current.year}</i></p>
+                            </div>
                         </div>
+                        <footer>
+                            <p>Created by Taylor English</p>
+                            <a href="https://github.com/BYU-CS-260/lab-3-react-janksmap" target="_blank">View GitHub Repository</a>
+                        </footer>
                     </div>
                 );
             }
