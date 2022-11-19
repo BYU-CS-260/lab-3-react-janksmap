@@ -10,7 +10,7 @@ import Contact from "./pages/Contact";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/lab-3-react-janksmap/photolab-cli">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />

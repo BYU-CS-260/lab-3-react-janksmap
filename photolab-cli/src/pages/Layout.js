@@ -35,7 +35,7 @@ const Layout = () => {
         <p>
           Creators:<br/>
           Bradley English, Taylor English<br/>
-          <a href="https://github.com/BE-Code/CS260-CreativeProject2">Github Source Code</a>
+          <a href="https://github.com/BYU-CS-260/lab-3-react-janksmap">Github Source Code</a>
         </p>
       </footer>
     </>
