@@ -30,8 +30,16 @@ const Layout = () => {
       </nav>
 
       <Outlet />
+      
+      <footer>
+        <p>
+          Creators:<br/>
+          Bradley English, Taylor English<br/>
+          <a href="https://github.com/BE-Code/CS260-CreativeProject2">Github Source Code</a>
+        </p>
+      </footer>
     </>
-  )
+  );
 };
 
 export default Layout;
