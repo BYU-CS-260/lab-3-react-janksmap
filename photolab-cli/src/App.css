@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Reem Kufi Ink', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.navbar-toggler, .collapsed {
+    margin: 0 !important;
+    border: 2px;
+}
+
+.navbar-toggler:hover, .collapsed:hover {
+    color: black;
+    background-color: black;
+    /* border: 2px solid white !important; */
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(36, 182, 230, 0.686);
+}
+
+.active {
+    color: rgb(36, 182, 230) !important;
+    font-weight: bold;
+}
+
+#main-image img {
+    object-fit: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:visited:hover {
+    color: black;
+}
+
+#portfolio-grid {
+    margin: 30px auto;
+}
+
+.col-md img {
+    width: 80%;
+    margin: 20px;
+}
+
+.about {
+    width: 50%;
+    margin: 20px auto;
+    line-height: 40px;
+}
+
+#phone-number {
+    margin-bottom: 20px;
+}
+
+button a:link {
+    text-decoration: none;
+    color: white;
+}
+
+button a:link:hover {
+    color: black;
+}
+
+#disclaimer {
+    font-size: 12px;
+}
+
+.review {
+    margin: 40px auto;
+    width: 40%;
+}
+
+.review p {
+    text-align: left;
+}
+
+hr {
+    border: 1px solid white;
+    margin-top: 40px;
+}
